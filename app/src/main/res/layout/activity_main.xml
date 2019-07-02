@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/imei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="imei" />
+
+    <EditText
+        android:id="@+id/gama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="gama" />
+
+    <EditText
+        android:id="@+id/marca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="marca" />
+
+    <EditText
+        android:id="@+id/modelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="modelo" />
+
+    <EditText
+        android:id="@+id/companiatelf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Compañía" />
+
+    <Button
+        android:id="@+id/btn_proceder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Registrar"
+        android:text="Registro" />
+    <Button
+        android:id="@+id/btn_modificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Modificar"
+        android:text="Modificar datos" />
+
+    <Button
+        android:id="@+id/consultar"
+        android:layout_width="match_parent"
+        android:onClick="Consulta"
+        android:layout_height="wrap_content"
+        android:text="Consultar" />
+
+    <Button
+        android:id="@+id/elimirnar"
+        android:layout_width="match_parent"
+        android:onClick="Eliminar"
+        android:layout_height="wrap_content"
+        android:text="Eliminar datos" />
+
+
+
+</LinearLayout>
